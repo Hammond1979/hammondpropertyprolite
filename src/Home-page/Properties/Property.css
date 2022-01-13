@@ -1,0 +1,108 @@
+.property-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255,255,255,.7);
+}
+
+
+.card {
+    margin: 1rem;
+    width:22%;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card_details{
+    position: relative;
+
+}
+
+
+
+.card_details > img {
+    width:100%;
+    height:220px;
+    
+}
+
+.card_details >p {
+    position: absolute;
+    bottom: 0rem;
+    left: 1rem;
+    background: #5ea51d;
+    font-size: 12px;
+    /* font-weight: 300; */
+    border-radius: 4px;
+    padding: 3px 7px;
+    padding-top: 8px;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 white;
+ }
+
+.property {
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.property_list-name {
+     margin-right: 1.2rem; 
+}
+
+.property-icon {
+display: flex;
+justify-content:space-evenly;
+color: rgba(0, 0, 0, 0.6);
+padding-left: 1rem;
+}
+
+.sale {
+    background: #5ea51d;
+    color: white;
+}
+
+.list-team {
+    display: flex;
+    justify-content:center ; 
+    align-items: center;
+    color:rgba(0, 0, 0, 0.6);
+    
+}
+
+.property-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px)  {
+.card {
+    width: 85%;
+}
+
+} 
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .card {
+        width: 70%;
+    }
+
+  } 
+
+  @media screen and (max-width: 553px) and (min-width: 500px) {
+    .card {
+        width: 70%;
+    }
+
+  } 

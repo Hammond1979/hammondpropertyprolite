@@ -1,0 +1,16 @@
+.flaticon-architect {
+  height: 10rem;
+  width: 3rem;
+}
+  @media (max-width: 768px) {
+    .content {
+     flex-direction: column;
+    
+    }
+    .contentImg {
+      height: 399px;
+      width: 100%;
+      
+    }
+     
+  }

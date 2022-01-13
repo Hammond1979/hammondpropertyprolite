@@ -1,0 +1,56 @@
+.signInFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin-bottom: 3rem;
+    /* background-color: rgb(191, 185, 185); */
+} 
+
+.form {
+    color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 8px 8px; 
+    /* box-shadow: 0 10px 25px rgba(232, 238, 248, 0.2); */
+  }
+
+  .Remember {
+      color:black;
+
+  }
+   
+  .Recover {
+   color: black;
+  }
+
+  .signintitle {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .SigninsubmitBtn {
+      margin-left: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background-color: #5ea51d ;
+      padding: 20px 40px;
+      font-size: 1rem;
+      color: white;
+      border-radius: 6px;
+  }
+
+  .inputContainerlast {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  .signRecover {
+      color: #5ea51d;
+  }
+ 
